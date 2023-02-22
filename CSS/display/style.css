@@ -1,0 +1,38 @@
+/* h1{
+    background-color: brown;
+    height: 150px;
+    width: 700px;   
+} */
+#anchor-element{
+    /* Svojstva koi ne rabotat kaj inline elementite*/
+    /* margin-top: 40px; */
+    /* margin-bottom: 40px; */
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    /* width: 400px;
+    height: 500px; */
+}
+
+#h1-inline{
+    display: inline;
+}
+#anchor-block{
+    display: block;
+}
+
+#span-inline-block{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    padding-top: 10px;
+}
+
+#h1-inline-block{
+    display:inline-block;
+}
+
+#h1-display-none{
+    /* display: none; */
+    visibility: hidden;
+}
